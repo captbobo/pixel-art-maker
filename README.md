@@ -8,7 +8,9 @@
 
 This is first web app I built. Many thanks to the people at Google and Udacity. 
 
-If you like it let me know; If you don't like it let me know even further. Any feedback will be much appreciated!
+If you like it let me know; If you don't like it let me know even further. 
+
+# <em>Any feedback will be much appreciated!</em>
 
 ----------
 
