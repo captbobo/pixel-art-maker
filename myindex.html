@@ -1,0 +1,88 @@
+<DOCTYPE! html>
+    
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Pixel-Art Maker! | By Can Surmeli</title>
+        <!-- color picker -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+        
+        <link rel="stylesheet" href="mystyles.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="designs.js" ></script>
+        
+    </head>
+ 
+<body>
+    <header>  
+        <h1>Pixel-Art Maker!</h1>
+        <div class="arrow up"></div>
+        <h5>Reset</h5>
+        <div class="arrow up"></div>
+    </header>
+    
+    <div class="intro">      
+        <div class="info-box">
+            <h4>Controls</h4>
+            <p><span class="explain">Paint: <br></span>Left Mouse Click</p>
+            <p><span class="explain">Erase: <br></span>Right Mouse Click / hold down 'z' and drag your cursor.</p>
+            <p><span class="explain">Color Picker/Changer: <br></span>Assign colours to keys 'Q', 'W', 'E', 'R', 'T'. You can change the current colour by simply pressing these keys.</p>
+        </div>
+        <div class="input-info">
+            <h3>Choose Grid Size</h3>
+            <div class="input-box width">
+                <h4>Width</h4>
+                <input id="input-width" type="number" min="5" value="11" name="width">
+            </div>
+            <div class="input-box height">
+                <h4>Height</h4>
+                <input id="input-height" type="number" min="5" value="14" name="height">
+            </div>
+        </div>    
+        <input type="submit" id="go-button" value="Go!">
+    </div>
+    <section class="settings"></section>
+    <section class="color-container">
+        <div class="color-info">
+                <div class="color-box">
+                    <label for="picker1">Q</label> 
+                    <div class="input-color">
+                        <input id="picker1" type="color" >
+                    </div>
+                </div>
+                <div class="color-box">
+                    <label for="picker2">W</label>
+                    <div class="input-color">
+                        <input id="picker2" type="color" >
+                    </div>
+                </div>
+                <div class="color-box">
+                    <label for="picker3">E</label>
+                    <div class="input-color">
+                        <input id="picker3" type="color" >
+                    </div>
+                </div>
+                <div class="color-box">
+                    <label for="picker4">R</label>
+                    <div class="input-color">
+                        <input id="picker4" type="color" >
+                    </div>
+                </div>
+                <div class="color-box">
+                    <label for="picker5">T</label>
+                    <div class="input-color">
+                        <input id="picker5" type="color" >
+                    </div>
+                </div>
+            </div>
+        </section>
+    <div class="container">
+        <table class="canvas">
+
+        </table>
+    </div>
+        
+</body>    
+</html>
